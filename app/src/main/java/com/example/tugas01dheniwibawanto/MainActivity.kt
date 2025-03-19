@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Dheni Wibawanto",
-                        address = "Malang, Jawa Timur",
+                        address = "Villa Bukit Tidar C1/45 Malang",
                         nim = "24.51.0008",
                         prodi = "S1-Sistem Informasi",
                         modifier = Modifier.padding(innerPadding)
@@ -45,6 +45,6 @@ fun Greeting(name: String, address: String, nim: String, prodi: String, modifier
 @Composable
 fun GreetingPreview() {
     Tugas01DheniWibawantoTheme {
-        Greeting(name = "Dheni Wibawanto", address = "Malang, Jawa Timur", nim = "24.51.0008", prodi = "S1-Sistem Informasi")
+        Greeting(name = "Dheni Wibawanto", address = "Villa Bukit Tidar C1/45 Malang", nim = "24.51.0008", prodi = "S1-Sistem Informasi")
     }
 }
